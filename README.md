@@ -2,14 +2,12 @@
 
 这是一个用于部署 Pandora-cloud 的 Helm chart。
 
+感谢pengzhile大佬的开源项目[pandora](https://github.com/pengzhile/pandora)
+
 ## 版本信息
 
 - Chart 版本：0.1.0
-- App 版本：1.2.2
-
-## 维护者信息
-
-- 名称：yaoyi098
+- pandora 版本：1.2.2
 
 ## values.yaml说明
 
@@ -30,3 +28,7 @@ helm install [RELEASE_NAME] ./pandora-chart -f [YOUR_VALUES].yaml
 ```
 
 请注意，你需要将 `[RELEASE_NAME]` 替换为你想要的发布名称。将 `[YOUR_VALUES]`替换为你自己的values文件。
+
+## LICENSE
+
+MIT
