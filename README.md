@@ -7,7 +7,7 @@
 ## 版本信息
 
 - Chart 版本：0.1.0
-- pandora 版本：1.2.2
+- pandora 版本：1.2.3
 
 ## values.yaml说明
 
