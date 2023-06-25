@@ -3,7 +3,7 @@ name: Package and Release Helm Chart
 on:
   push:
     branches:
-      - ci
+      - main
 
 jobs:
   build:
