@@ -23,7 +23,7 @@ jobs:
         run: |
           cd pandora
           helm lint
-          helm package . --output-dir .
+          helm package . 
           echo "::set-output name=chart::$(ls *.tgz)"
       - name: Create Release
         id: create_release
